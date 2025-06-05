@@ -1,4 +1,4 @@
-# Model Card — LMM-AI
+# LMM-AI
 
 ## Language-to-Motion Model
 
@@ -47,7 +47,7 @@ This project is structured to allow **modular contributions** by specialists in 
 |-------------|---------|
 | Dual-Part   | `Amputed_Left_Leg` |
 | Singular    | `Weak_Heart` |
-| Subpart     | `Cold_Right_Finger2_Hand` |
+| Multiple     | `Cold_Right_Finger2_Hand` |
 
 Model must have full bone mapping using these conventions. AI will ignore bones not named correctly (e.g., missing `R_Leg` will simulate a limp or amputation).
 
@@ -69,7 +69,7 @@ MIT license may be adopted if project is officially partnered with open research
 | Model | Python, PyTorch |
 | Pose | OpenPose, FFMPEG |
 | Output | Blender API (Python) |
-| Dev | VSCodium + Blackbox AI |
+| Dev | VSCode |
 | Plugin (Planned) | Blender Addon in Python |
 | Web UI (Planned) | React + Three.js |
 
@@ -77,19 +77,12 @@ MIT license may be adopted if project is officially partnered with open research
 
 ## 🧪 Contribution Guidelines
 
-We’re seeking:
+I'm seeking:
 
 - ML engineers (motion modeling / transformer tuning)
 - Blender devs (rig validation / automation)
 - Audio/NLP researchers (tone → motion)
 - Dataset builders (gesture labeling, pose synthesis)
-
-### How to Join
-
-- Fork the repo
-- Star & Watch for updates
-- Open an issue with your background
-- Optional: Share a sample / GitHub repo of similar work
 
 ---
 
