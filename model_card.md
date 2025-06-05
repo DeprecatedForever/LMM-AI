@@ -1,6 +1,6 @@
-# 🧠 Model Card — LMM-AI (Language-to-Motion Model)
+# Model Card — LMM-AI
 
-## Project: LMM-AI (Language-to-Motion Model)
+## Language-to-Motion Model
 
 LMM-AI is an AI-driven animation system that maps spoken or written language — including emotional tone and context — into full-body skeletal motion using real-time inverse kinematics.
 
