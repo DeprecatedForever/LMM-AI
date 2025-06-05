@@ -1,28 +1,28 @@
-# LMM-AI — Language-to-Motion Model
+# LMM-AI — Language-to-Motion Model  
+**By [Deprecated](https://github.com/DeprecatedForever)**
 
-Created by Deprecated
+LMM (Language-to-Motion Model) is an AI system that translates language — speech, tone, and expression — into accurate, expressive full-body motion. Designed for real-time interaction, LMM gives 3D characters the ability to move naturally and intelligently while speaking, reacting, or performing actions, without pre-baked animations.
 
-LMM (Language-to-Motion Model) is an AI system designed to translate language spoken or written into realistic, expressive body motion in real time. It enables 3D models to move naturally while speaking, reacting, or performing, without relying on pre-animated sequences.
+---
 
- What It Does?
+##  Key Features
 
-Understands words, tone, and intent
+- 🎙️ **Speech-to-Motion:** Converts spoken language into synchronized body movement
+- 🧠 **Context-Aware:** Understands gestures, tone, and intention (e.g., asking, reacting, feeling)
+- 🕹️ **Real-Time or Prompt-Based:** Use for live gameplay or offline animation generation
+- 🎮 **Game & VR-Ready:** Built for integration with engines and platforms
+- 🧩 **Modular Bone System:** Works with any model using standard bone naming (`L_PointerF`, `R_Leg`, etc.)
+- 🔁 **Inverse Kinematics Support:** Smooth physical realism through IK-based control
+- 🧬 **Future Expansion:** Supports physical awareness, emotion, and eventually animals (e.g., tail, ears)
 
-Maps these to full-body motion using inverse kinematics (IK)
+---
 
-Reacts in real time or generates motion sequences from prompts
+## 🛠️ How It Works
 
-Works with any 3D model using a standardized bone naming convention
-
-
- Main Use Cases
-
-Real-time game character animation
-
-VR avatars with natural gestures
-
-AI NPCs that speak and move dynamically
-
-Blender/Maya projects without hand-animating motions
-
-Future potential for animals, robots, and expressive agents
+```mermaid
+graph TD;
+    A[Video Input (Movies, Real Footage)] --> B[Body & Motion Tracker]
+    B --> C[Speech & Gesture Labeling]
+    C --> D[AI Training (Speech → Motion)]
+    D --> E[Real-Time Output / Animation]
+    E --> F[3D Model with IK Bones]
