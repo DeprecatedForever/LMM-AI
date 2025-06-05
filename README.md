@@ -4,7 +4,7 @@ Created by Deprecated
 
 LMM (Language-to-Motion Model) is an AI system designed to translate language — spoken or written — into realistic, expressive body motion in real time. It enables 3D models to move naturally while speaking, reacting, or performing, without relying on pre-animated sequences.
 
- What It Does
+ #What It Does
 
 Understands words, tone, and intent
 
@@ -15,7 +15,7 @@ Reacts in real time or generates motion sequences from prompts
 Works with any 3D model using a standardized bone naming convention
 
 
- Main Use Cases
+ #Main Use Cases
 
 Real-time game character animation
 
